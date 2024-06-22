@@ -1,11 +1,20 @@
 ### Rocky Linux
 http://mirror.kakao.com/linux/rocky/
+- 113.29.189.165
 
 ### Nginx CE
 http://nginx.org/packages/
+- 3.125.197.172
+- 52.58.199.22
 
 ### Docker CE
 https://download.docker.com/linux/centos/
+- download.docker.com.    184     IN      CNAME   d2h67oheeuigaw.cloudfront.net.
+- d2h67oheeuigaw.cloudfront.net. 2 IN     A       18.244.61.41
+- d2h67oheeuigaw.cloudfront.net. 2 IN     A       18.244.61.7
+- d2h67oheeuigaw.cloudfront.net. 2 IN     A       18.244.61.109
+- d2h67oheeuigaw.cloudfront.net. 2 IN     A       18.244.61.11
 
 ### Zabbix
 https://repo.zabbix.com/
+- 178.128.6.101
