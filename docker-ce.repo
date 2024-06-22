@@ -1,0 +1,62 @@
+[docker-ce-stable]
+name=Docker CE Stable - $basearch
+baseurl=http://172.16.1.21:8081/repository/docker-ce/$releasever/$basearch/stable
+enabled=1
+gpgcheck=1
+gpgkey=http://172.16.1.21:8081/repository/docker-ce/gpg
+
+[docker-ce-stable-debuginfo]
+name=Docker CE Stable - Debuginfo $basearch
+baseurl=http://172.16.1.21:8081/repository/docker-ce/$releasever/debug-$basearch/stable
+enabled=0
+gpgcheck=1
+gpgkey=http://172.16.1.21:8081/repository/docker-ce/gpg
+
+[docker-ce-stable-source]
+name=Docker CE Stable - Sources
+baseurl=http://172.16.1.21:8081/repository/docker-ce/$releasever/source/stable
+enabled=0
+gpgcheck=1
+gpgkey=http://172.16.1.21:8081/repository/docker-ce/gpg
+
+[docker-ce-test]
+name=Docker CE Test - $basearch
+baseurl=http://172.16.1.21:8081/repository/docker-ce/$releasever/$basearch/test
+enabled=0
+gpgcheck=1
+gpgkey=http://172.16.1.21:8081/repository/docker-ce/gpg
+
+[docker-ce-test-debuginfo]
+name=Docker CE Test - Debuginfo $basearch
+baseurl=http://172.16.1.21:8081/repository/docker-ce/$releasever/debug-$basearch/test
+enabled=0
+gpgcheck=1
+gpgkey=http://172.16.1.21:8081/repository/docker-ce/gpg
+
+[docker-ce-test-source]
+name=Docker CE Test - Sources
+baseurl=http://172.16.1.21:8081/repository/docker-ce/$releasever/source/test
+enabled=0
+gpgcheck=1
+gpgkey=http://172.16.1.21:8081/repository/docker-ce/gpg
+
+[docker-ce-nightly]
+name=Docker CE Nightly - $basearch
+baseurl=http://172.16.1.21:8081/repository/docker-ce/$releasever/$basearch/nightly
+enabled=0
+gpgcheck=1
+gpgkey=http://172.16.1.21:8081/repository/docker-ce/gpg
+
+[docker-ce-nightly-debuginfo]
+name=Docker CE Nightly - Debuginfo $basearch
+baseurl=http://172.16.1.21:8081/repository/docker-ce/$releasever/debug-$basearch/nightly
+enabled=0
+gpgcheck=1
+gpgkey=http://172.16.1.21:8081/repository/docker-ce/gpg
+
+[docker-ce-nightly-source]
+name=Docker CE Nightly - Sources
+baseurl=http://172.16.1.21:8081/repository/docker-ce/$releasever/source/nightly
+enabled=0
+gpgcheck=1
+gpgkey=http://172.16.1.21:8081/repository/docker-ce/gpg
