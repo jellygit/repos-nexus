@@ -2,6 +2,10 @@
 http://mirror.kakao.com/linux/rocky/
 - 113.29.189.165
 
+### EPEL
+http://mirror.kakao.com/epel/
+- 113.29.189.165
+
 ### Nginx CE
 http://nginx.org/packages/
 - 3.125.197.172
