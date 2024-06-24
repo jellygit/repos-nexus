@@ -2,7 +2,7 @@
 name=Extra Packages for Enterprise Linux $releasever - Testing - $basearch
 # It is much more secure to use the metalink, but if you wish to use a local mirror
 # place its address here.
-baseurl=http://172.16.1.21:8081/repository/epel/testing/$releasever/Everything/$basearch/
+baseurl=http://repo.jellypo.pe.kr:8081/repository/epel/testing/$releasever/Everything/$basearch/
 #metalink=http://mirrors.fedoraproject.org/metalink?repo=testing-epel$releasever&arch=$basearch&infra=$infra&content=$contentdir
 enabled=0
 gpgcheck=1
@@ -13,7 +13,7 @@ gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-EPEL-$releasever
 name=Extra Packages for Enterprise Linux $releasever - Testing - $basearch - Debug
 # It is much more secure to use the metalink, but if you wish to use a local mirror
 # place its address here.
-baseurl=http://172.16.1.21:8081/repository/epel/testing/$releasever/Everything/$basearch/debug/
+baseurl=http://repo.jellypo.pe.kr:8081/repository/epel/testing/$releasever/Everything/$basearch/debug/
 #metalink=http://mirrors.fedoraproject.org/metalink?repo=testing-debug-epel$releasever&arch=$basearch&infra=$infra&content=$contentdir
 enabled=0
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-EPEL-$releasever
@@ -23,7 +23,7 @@ gpgcheck=1
 name=Extra Packages for Enterprise Linux $releasever - Testing - $basearch - Source
 # It is much more secure to use the metalink, but if you wish to use a local mirror
 # place its address here.
-baseurl=http://172.16.1.21:8081/repository/epel/testing/$releasever/Everything/source/tree/
+baseurl=http://repo.jellypo.pe.kr:8081/repository/epel/testing/$releasever/Everything/source/tree/
 #metalink=http://mirrors.fedoraproject.org/metalink?repo=testing-source-epel$releasever&arch=$basearch&infra=$infra&content=$contentdir
 enabled=0
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-EPEL-$releasever

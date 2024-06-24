@@ -11,7 +11,7 @@
 [baseos]
 name=Rocky Linux $releasever - BaseOS
 #mirrorlist=https://mirrors.rockylinux.org/mirrorlist?arch=$basearch&repo=BaseOS-$releasever$rltype
-baseurl=http://172.16.1.21:8081/repository/rocky/$releasever/BaseOS/$basearch/os/
+baseurl=http://repo.jellypo.pe.kr:8081/repository/rocky/$releasever/BaseOS/$basearch/os/
 gpgcheck=1
 enabled=1
 countme=1
@@ -21,7 +21,7 @@ gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-Rocky-9
 [baseos-debuginfo]
 name=Rocky Linux $releasever - BaseOS - Debug
 #mirrorlist=https://mirrors.rockylinux.org/mirrorlist?arch=$basearch&repo=BaseOS-$releasever-debug$rltype
-baseurl=http://172.16.1.21:8081/repository/rocky/$releasever/BaseOS/$basearch/debug/tree/
+baseurl=http://repo.jellypo.pe.kr:8081/repository/rocky/$releasever/BaseOS/$basearch/debug/tree/
 gpgcheck=1
 enabled=0
 metadata_expire=6h
@@ -30,7 +30,7 @@ gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-Rocky-9
 [baseos-source]
 name=Rocky Linux $releasever - BaseOS - Source
 #mirrorlist=https://mirrors.rockylinux.org/mirrorlist?arch=source&repo=BaseOS-$releasever-source$rltype
-baseurl=http://172.16.1.21:8081/repository/rocky/$releasever/BaseOS/source/tree/
+baseurl=http://repo.jellypo.pe.kr:8081/repository/rocky/$releasever/BaseOS/source/tree/
 gpgcheck=1
 enabled=0
 metadata_expire=6h
@@ -39,7 +39,7 @@ gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-Rocky-9
 [appstream]
 name=Rocky Linux $releasever - AppStream
 #mirrorlist=https://mirrors.rockylinux.org/mirrorlist?arch=$basearch&repo=AppStream-$releasever$rltype
-baseurl=http://172.16.1.21:8081/repository/rocky/$releasever/AppStream/$basearch/os/
+baseurl=http://repo.jellypo.pe.kr:8081/repository/rocky/$releasever/AppStream/$basearch/os/
 gpgcheck=1
 enabled=1
 countme=1
@@ -49,7 +49,7 @@ gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-Rocky-9
 [appstream-debuginfo]
 name=Rocky Linux $releasever - AppStream - Debug
 #mirrorlist=https://mirrors.rockylinux.org/mirrorlist?arch=$basearch&repo=AppStream-$releasever-debug$rltype
-baseurl=http://172.16.1.21:8081/repository/rocky/$releasever/AppStream/$basearch/debug/tree/
+baseurl=http://repo.jellypo.pe.kr:8081/repository/rocky/$releasever/AppStream/$basearch/debug/tree/
 gpgcheck=1
 enabled=0
 metadata_expire=6h
@@ -58,7 +58,7 @@ gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-Rocky-9
 [appstream-source]
 name=Rocky Linux $releasever - AppStream - Source
 #mirrorlist=https://mirrors.rockylinux.org/mirrorlist?arch=source&repo=AppStream-$releasever-source$rltype
-baseurl=http://172.16.1.21:8081/repository/rocky/$releasever/AppStream/source/tree/
+baseurl=http://repo.jellypo.pe.kr:8081/repository/rocky/$releasever/AppStream/source/tree/
 gpgcheck=1
 enabled=0
 metadata_expire=6h
@@ -67,7 +67,7 @@ gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-Rocky-9
 [crb]
 name=Rocky Linux $releasever - CRB
 #mirrorlist=https://mirrors.rockylinux.org/mirrorlist?arch=$basearch&repo=CRB-$releasever$rltype
-baseurl=http://172.16.1.21:8081/repository/rocky/$releasever/CRB/$basearch/os/
+baseurl=http://repo.jellypo.pe.kr:8081/repository/rocky/$releasever/CRB/$basearch/os/
 gpgcheck=1
 enabled=0
 countme=1
@@ -77,7 +77,7 @@ gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-Rocky-9
 [crb-debuginfo]
 name=Rocky Linux $releasever - CRB - Debug
 #mirrorlist=https://mirrors.rockylinux.org/mirrorlist?arch=$basearch&repo=CRB-$releasever-debug$rltype
-baseurl=http://172.16.1.21:8081/repository/rocky/$releasever/CRB/$basearch/debug/tree/
+baseurl=http://repo.jellypo.pe.kr:8081/repository/rocky/$releasever/CRB/$basearch/debug/tree/
 gpgcheck=1
 enabled=0
 metadata_expire=6h
@@ -86,7 +86,7 @@ gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-Rocky-9
 [crb-source]
 name=Rocky Linux $releasever - CRB - Source
 #mirrorlist=https://mirrors.rockylinux.org/mirrorlist?arch=source&repo=CRB-$releasever-source$rltype
-baseurl=http://172.16.1.21:8081/repository/rocky/$releasever/CRB/source/tree/
+baseurl=http://repo.jellypo.pe.kr:8081/repository/rocky/$releasever/CRB/source/tree/
 gpgcheck=1
 enabled=0
 metadata_expire=6h

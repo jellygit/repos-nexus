@@ -1,20 +1,20 @@
 [zabbix]
 name=Zabbix Official Repository - $basearch
-baseurl=http://172.16.1.21:8081/repository/zabbix/zabbix/7.0/rocky/9/$basearch/
+baseurl=http://repo.jellypo.pe.kr:8081/repository/zabbix/zabbix/7.0/rocky/9/$basearch/
 enabled=1
 gpgcheck=1
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-ZABBIX-B5333005
 
 [zabbix-non-supported]
 name=Zabbix Official Repository non-supported - $basearch
-baseurl=http://172.16.1.21:8081/repository/zabbix/non-supported/rhel/9/$basearch/
+baseurl=http://repo.jellypo.pe.kr:8081/repository/zabbix/non-supported/rhel/9/$basearch/
 enabled=1
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-ZABBIX-08EFA7DD
 gpgcheck=1
 
 [zabbix-sources]
 name=Zabbix Official Repository source code - $basearch
-baseurl=http://172.16.1.21:8081/repository/zabbix/zabbix/7.0/rocky/9/SRPMS
+baseurl=http://repo.jellypo.pe.kr:8081/repository/zabbix/zabbix/7.0/rocky/9/SRPMS
 enabled=0
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-ZABBIX-B5333005
 gpgcheck=1

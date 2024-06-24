@@ -1,6 +1,6 @@
 [mysql80-community]
 name=MySQL 8.0 Community Server
-baseurl=http://172.16.1.21:8081/repository/mysql-8.0/mysql-8.0-community/el/9/$basearch/
+baseurl=http://repo.jellypo.pe.kr:8081/repository/mysql-8.0/mysql-8.0-community/el/9/$basearch/
 enabled=0
 gpgcheck=1
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-mysql-2023
@@ -8,7 +8,7 @@ gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-mysql-2023
 
 [mysql-innovation-community]
 name=MySQL Innovation Release Community Server
-baseurl=http://172.16.1.21:8081/repository/mysql-8.0/mysql-innovation-community/el/9/$basearch
+baseurl=http://repo.jellypo.pe.kr:8081/repository/mysql-8.0/mysql-innovation-community/el/9/$basearch
 enabled=0
 gpgcheck=1
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-mysql-2023
@@ -16,14 +16,14 @@ gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-mysql-2023
 
 [mysql-8.4-lts-community]
 name=MySQL 8.4 LTS Community Server
-baseurl=http://172.16.1.21:8081/repository/mysql-8.0/mysql-8.4-community/el/9/$basearch
+baseurl=http://repo.jellypo.pe.kr:8081/repository/mysql-8.0/mysql-8.4-community/el/9/$basearch
 enabled=1
 gpgcheck=1
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-mysql-2023
 
 [mysql-connectors-community]
 name=MySQL Connectors Community
-baseurl=http://172.16.1.21:8081/repository/mysql-8.0/mysql-connectors-community/el/9/$basearch/
+baseurl=http://repo.jellypo.pe.kr:8081/repository/mysql-8.0/mysql-connectors-community/el/9/$basearch/
 enabled=1
 gpgcheck=1
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-mysql-2023
@@ -31,7 +31,7 @@ gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-mysql-2023
 
 [mysql-tools-community]
 name=MySQL Tools Community
-baseurl=http://172.16.1.21:8081/repository/mysql-8.0/mysql-tools-community/el/9/$basearch/
+baseurl=http://repo.jellypo.pe.kr:8081/repository/mysql-8.0/mysql-tools-community/el/9/$basearch/
 enabled=0
 gpgcheck=1
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-mysql-2023
@@ -39,7 +39,7 @@ gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-mysql-2023
 
 [mysql-tools-innovation-community]
 name=MySQL Tools Innovation Community
-baseurl=http://172.16.1.21:8081/repository/mysql-8.0/mysql-tools-innovation-community/el/9/$basearch/
+baseurl=http://repo.jellypo.pe.kr:8081/repository/mysql-8.0/mysql-tools-innovation-community/el/9/$basearch/
 enabled=0
 gpgcheck=1
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-mysql-2023
@@ -47,14 +47,14 @@ gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-mysql-2023
 
 [mysql-tools-8.4-lts-community]
 name=MySQL Tools 8.4 LTS Community
-baseurl=http://172.16.1.21:8081/repository/mysql-8.0/mysql-tools-8.4-community/el/9/$basearch
+baseurl=http://repo.jellypo.pe.kr:8081/repository/mysql-8.0/mysql-tools-8.4-community/el/9/$basearch
 enabled=1
 gpgcheck=1
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-mysql-2023
 
 [mysql-cluster-8.0-community]
 name=MySQL Cluster 8.0 Community
-baseurl=http://172.16.1.21:8081/repository/mysql-8.0/mysql-cluster-8.0-community/el/9/$basearch/
+baseurl=http://repo.jellypo.pe.kr:8081/repository/mysql-8.0/mysql-cluster-8.0-community/el/9/$basearch/
 enabled=0
 gpgcheck=1
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-mysql-2023
@@ -62,7 +62,7 @@ gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-mysql-2023
 
 [mysql-cluster-innovation-community]
 name=MySQL Cluster Innovation Release Community
-baseurl=http://172.16.1.21:8081/repository/mysql-8.0/mysql-cluster-innovation-community/el/9/$basearch
+baseurl=http://repo.jellypo.pe.kr:8081/repository/mysql-8.0/mysql-cluster-innovation-community/el/9/$basearch
 enabled=0
 gpgcheck=1
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-mysql-2023
@@ -70,7 +70,7 @@ gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-mysql-2023
 
 [mysql-cluster-8.4-lts-community]
 name=MySQL Cluster 8.4 LTS Community
-baseurl=http://172.16.1.21:8081/repository/mysql-8.0/mysql-cluster-8.4-community/el/9/$basearch
+baseurl=http://repo.jellypo.pe.kr:8081/repository/mysql-8.0/mysql-cluster-8.4-community/el/9/$basearch
 enabled=0
 gpgcheck=1
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-mysql-2023

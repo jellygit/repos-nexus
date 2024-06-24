@@ -11,7 +11,7 @@
 [extras]
 name=Rocky Linux $releasever - Extras
 #mirrorlist=https://mirrors.rockylinux.org/mirrorlist?arch=$basearch&repo=extras-$releasever$rltype
-baseurl=http://172.16.1.21:8081/repository/rocky/$releasever/extras/$basearch/os/
+baseurl=http://repo.jellypo.pe.kr:8081/repository/rocky/$releasever/extras/$basearch/os/
 gpgcheck=1
 enabled=1
 countme=1
@@ -21,7 +21,7 @@ gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-Rocky-9
 [extras-debuginfo]
 name=Rocky Linux $releasever - Extras Debug
 #mirrorlist=https://mirrors.rockylinux.org/mirrorlist?arch=$basearch&repo=extras-$releasever-debug$rltype
-baseurl=http://172.16.1.21:8081/repository/rocky/$releasever/extras/$basearch/debug/tree/
+baseurl=http://repo.jellypo.pe.kr:8081/repository/rocky/$releasever/extras/$basearch/debug/tree/
 gpgcheck=1
 enabled=0
 metadata_expire=6h
@@ -30,7 +30,7 @@ gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-Rocky-9
 [extras-source]
 name=Rocky Linux $releasever - Extras Source
 #mirrorlist=https://mirrors.rockylinux.org/mirrorlist?arch=$basearch&repo=extras-$releasever-source$rltype
-baseurl=http://172.16.1.21:8081/repository/rocky/$releasever/extras/source/tree/
+baseurl=http://repo.jellypo.pe.kr:8081/repository/rocky/$releasever/extras/source/tree/
 gpgcheck=1
 enabled=0
 metadata_expire=6h
@@ -39,7 +39,7 @@ gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-Rocky-9
 [plus]
 name=Rocky Linux $releasever - Plus
 #mirrorlist=https://mirrors.rockylinux.org/mirrorlist?arch=$basearch&repo=plus-$releasever$rltype
-baseurl=http://172.16.1.21:8081/repository/rocky/$releasever/plus/$basearch/os/
+baseurl=http://repo.jellypo.pe.kr:8081/repository/rocky/$releasever/plus/$basearch/os/
 gpgcheck=1
 enabled=0
 countme=1
@@ -49,7 +49,7 @@ gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-Rocky-9
 [plus-debuginfo]
 name=Rocky Linux $releasever - Plus - Debug
 #mirrorlist=https://mirrors.rockylinux.org/mirrorlist?arch=$basearch&repo=plus-$releasever-debug$rltype
-baseurl=http://172.16.1.21:8081/repository/rocky/$releasever/plus/$basearch/debug/tree/
+baseurl=http://repo.jellypo.pe.kr:8081/repository/rocky/$releasever/plus/$basearch/debug/tree/
 gpgcheck=1
 enabled=0
 metadata_expire=6h
@@ -58,7 +58,7 @@ gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-Rocky-9
 [plus-source]
 name=Rocky Linux $releasever - Plus - Source
 #mirrorlist=https://mirrors.rockylinux.org/mirrorlist?arch=source&repo=plus-$releasever-source$rltype
-baseurl=http://172.16.1.21:8081/repository/rocky/$releasever/plus/source/tree/
+baseurl=http://repo.jellypo.pe.kr:8081/repository/rocky/$releasever/plus/source/tree/
 gpgcheck=1
 enabled=0
 metadata_expire=6h

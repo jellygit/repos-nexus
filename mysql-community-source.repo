@@ -1,6 +1,6 @@
 [mysql80-community-source]
 name=MySQL 8.0 Community Server - Source
-baseurl=http://172.16.1.21:8081/repository/mysql-8.0/mysql-8.0-community/el/9/SRPMS
+baseurl=http://repo.jellypo.pe.kr:8081/repository/mysql-8.0/mysql-8.0-community/el/9/SRPMS
 enabled=0
 gpgcheck=1
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-mysql-2023
@@ -8,7 +8,7 @@ gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-mysql-2023
 
 [mysql-innovation-community-source]
 name=MySQL Innovation Release Community Server - Source
-baseurl=http://172.16.1.21:8081/repository/mysql-8.0/mysql-innovation-community/el/9/SRPMS
+baseurl=http://repo.jellypo.pe.kr:8081/repository/mysql-8.0/mysql-innovation-community/el/9/SRPMS
 enabled=0
 gpgcheck=1
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-mysql-2023
@@ -16,14 +16,14 @@ gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-mysql-2023
 
 [mysql-8.4-lts-community-source]
 name=MySQL 8.4 LTS Community Server - Source
-baseurl=http://172.16.1.21:8081/repository/mysql-8.0/mysql-8.4-community/el/9/SRPMS
+baseurl=http://repo.jellypo.pe.kr:8081/repository/mysql-8.0/mysql-8.4-community/el/9/SRPMS
 enabled=0
 gpgcheck=1
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-mysql-2023
 
 [mysql-connectors-community-source]
 name=MySQL Connectors Community - Source
-baseurl=http://172.16.1.21:8081/repository/mysql-8.0/mysql-connectors-community/el/9/SRPMS
+baseurl=http://repo.jellypo.pe.kr:8081/repository/mysql-8.0/mysql-connectors-community/el/9/SRPMS
 enabled=0
 gpgcheck=1
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-mysql-2023
@@ -31,7 +31,7 @@ gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-mysql-2023
 
 [mysql-tools-community-source]
 name=MySQL Tools Community - Source
-baseurl=http://172.16.1.21:8081/repository/mysql-8.0/mysql-tools-community/el/9/SRPMS
+baseurl=http://repo.jellypo.pe.kr:8081/repository/mysql-8.0/mysql-tools-community/el/9/SRPMS
 enabled=0
 gpgcheck=1
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-mysql-2023
@@ -39,7 +39,7 @@ gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-mysql-2023
 
 [mysql-tools-innovation-community-source]
 name=MySQL Tools Innovation Community - Source
-baseurl=http://172.16.1.21:8081/repository/mysql-8.0/mysql-tools-innovation-community/el/9/SRPMS
+baseurl=http://repo.jellypo.pe.kr:8081/repository/mysql-8.0/mysql-tools-innovation-community/el/9/SRPMS
 enabled=0
 gpgcheck=1
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-mysql-2023
@@ -47,14 +47,14 @@ gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-mysql-2023
 
 [mysql-tools-8.4-lts-community-source]
 name=MySQL Tools 8.4 LTS Community - Source
-baseurl=http://172.16.1.21:8081/repository/mysql-8.0/mysql-tools-8.4-community/el/9/SRPMS
+baseurl=http://repo.jellypo.pe.kr:8081/repository/mysql-8.0/mysql-tools-8.4-community/el/9/SRPMS
 enabled=0
 gpgcheck=1
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-mysql-2023
 
 [mysql-cluster-8.0-community-source]
 name=MySQL Cluster 8.0 Community - Source
-baseurl=http://172.16.1.21:8081/repository/mysql-8.0/mysql-cluster-8.0-community/el/9/SRPMS
+baseurl=http://repo.jellypo.pe.kr:8081/repository/mysql-8.0/mysql-cluster-8.0-community/el/9/SRPMS
 enabled=0
 gpgcheck=1
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-mysql-2023
@@ -62,7 +62,7 @@ gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-mysql-2023
 
 [mysql-cluster-innovation-community-source]
 name=MySQL Cluster Innovation Release Community - Source
-baseurl=http://172.16.1.21:8081/repository/mysql-8.0/mysql-cluster-innovation-community/el/9/SRPMS
+baseurl=http://repo.jellypo.pe.kr:8081/repository/mysql-8.0/mysql-cluster-innovation-community/el/9/SRPMS
 enabled=0
 gpgcheck=1
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-mysql-2023
@@ -70,7 +70,7 @@ gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-mysql-2023
 
 [mysql-cluster-8.4-lts-community-source]
 name=MySQL Cluster 8.4 LTS Community - Source
-baseurl=http://172.16.1.21:8081/repository/mysql-8.0/mysql-cluster-8.4-community/el/9/SRPMS
+baseurl=http://repo.jellypo.pe.kr:8081/repository/mysql-8.0/mysql-cluster-8.4-community/el/9/SRPMS
 enabled=0
 gpgcheck=1
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-mysql-2023
