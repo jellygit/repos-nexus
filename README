@@ -22,3 +22,8 @@ https://download.docker.com/linux/centos/
 ### Zabbix
 https://repo.zabbix.com/
 - 178.128.6.101
+
+### MySQL CE
+repo.mysql.com.         8861    IN      CNAME   repo.mysql.com.edgekey.net.
+repo.mysql.com.edgekey.net. 19661 IN    CNAME   e7528.dscd.akamaiedge.net.
+e7528.dscd.akamaiedge.net. 20   IN      A       104.106.32.86
